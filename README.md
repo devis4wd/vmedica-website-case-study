@@ -151,16 +151,33 @@ This approach reduced:
 - long-term technical debt
 
 ---
-
 ## SEO, Performance & Maintainability
 
+This project was designed with long-term sustainability in mind, balancing visibility, speed, and ease of maintenance.
+
+### SEO
 - SEO-oriented information architecture
+- Clear content hierarchy aligned with user intent
+- Scalable structure for future services and locations
+
+### Performance
 - Optimized media handling with custom image sizes
-- Self-hosted fonts
-- Clean semantic markup
-- Reduced frontend overhead
-- Analytics with consent-aware tracking
+- Self-hosted fonts to reduce external dependencies
+- Clean, semantic markup
+- Reduced frontend overhead and limited third-party scripts
+- Stable layout to avoid cumulative layout shifts
+
+Lighthouse audits were used as a validation tool rather than a strict target.
+
+![Lighthouse performance audit](assets/performance-lighthouse-desktop.jpg)
+
+### Maintainability
+- Minimal plugin dependency
+- Centralized content management via custom data structures
+- Predictable and scalable template architecture
 - Solid foundation for future growth and content expansion
+
+Analytics and tracking were implemented with a consent-aware approach using Google Analytics and Google Tag Manager.
 
 ---
 
