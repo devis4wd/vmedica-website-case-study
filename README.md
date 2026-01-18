@@ -2,6 +2,7 @@
 
 ## Overview
 VMedica is a local physiotherapy center that, after two years of activity, started expanding into a multi-service medical clinic (polyclinic), with new services, a new location, and online appointment booking.
+The website is designed for a local Italian audience and is intentionally monolingual, prioritizing clarity, accessibility, and ease of use over internationalization.
 
 This project involved the **full redesign and redevelopment** of the existing website, focusing on **clarity, accessibility, performance, scalability, and conversion**.
 
